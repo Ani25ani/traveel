@@ -1,0 +1,538 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color: black;
+}
+header a:hover{
+    color: #FF715B;
+}
+.start .fon button:hover{
+    background-color: #f02404;
+}
+.start .fon a:hover{
+    background-color: #f02404;
+}
+.city a:hover{
+    background-color: #f02404;
+}
+.left{
+    width: 30%;
+}
+.centr{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 40vh;
+    width: 50%;
+}
+.centr a{
+    text-decoration: none;
+    color: black;
+}
+.right a{
+   padding-right: 2vh;
+   text-decoration: none;
+   color: black;
+}
+.start .fon{
+    height: 100vh;
+}
+.start .fon img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 0 10vh;
+}
+.start .fon h1{
+    font-size: 60px;
+    padding-bottom: 10vh;
+}
+.start .fon button{
+    background-color: #FF715B;
+    border: none;
+    color: white;
+    padding: 13px 25px;
+}
+.start .fon h1,button{
+    position: absolute;
+    bottom: 20vh;
+    left: 25vh;
+}
+.border{
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 30px 5px rgba(219, 200, 197, 0.2);
+    position: relative;
+    bottom: 6vh;
+    left: 62.6vh;
+    width: 60%;
+    height: 15vh;
+}
+.border h3{
+    color: #FF715B;
+    padding-bottom: 7px;
+}
+.border .text{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.border .child p{
+    padding-bottom: 10px;
+}
+.border a{
+    background-color: #FF715B;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+.border .child_tap{
+    width: fit-content;
+}
+.items{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20vh;
+    text-align: center;
+}
+.items .item_1,.item_2,.item_3,.item_4{
+    font-size: 1.7vh;
+    background-color: #F8F8F8;
+    padding: 5vh 5vh;
+}
+.items h2{
+    line-height: 8vh;
+}
+.items p{
+    color: #A79997;
+}
+.items img{
+    width:15vh;
+}
+.container{
+    display: flex;
+    height: 65vh;
+}
+.container .tex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7vh;
+    padding-bottom: 2vh;
+    width: 25%;
+}
+.container h1{
+    font-size: 5vh;
+}
+.container p{
+    color: #A79997;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+.container a{
+    width: fit-content;
+    background-color: #FF715B;
+    padding: 12px 15px;
+    color: white;
+    text-decoration: none;
+}
+.container span{
+    color: #FF715B;
+}
+.container .photo{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 15vh;
+}
+.container .photo img{
+
+    height: 40vh;
+}
+.city .photo_4{
+    position: relative;
+    left: 100vh;
+    bottom: 60vh;
+    height: 55vh;
+    width: 44%;
+    background-color: #F6F6F6;
+    z-index:-1;
+}
+.city{
+    height: 80vh;
+}
+.mayk{
+    display: flex;
+    height: 80vh;
+}
+.mayk .left{
+    width: 45%;
+}
+.mayk .right{
+    width: 38.5%;
+    padding-left: 10vh;
+}
+.mayk .right img{
+    width: 60vh;
+}
+.mayk .right h1{
+    font-size: 5vh;
+    padding-bottom: 6vh;
+    padding-top: 3vh;
+}
+.mayk .left img{
+    float: right;
+    width: 55vh;
+}
+.mayk hr{
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    float: right;
+}
+.trio .apartmen .top{
+    font-size: 3vh;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apartmen img{
+    width: 40vh;
+}
+.apartmen .child_img{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-self: baseline;
+}
+.apartmen .img_1{
+    width: 23%;
+    display: flex;
+}
+.apartmen .img_active{
+    display: flex;
+    flex-direction: column;
+}
+.apartmen .img_active img{
+    padding-bottom: 18vh;
+}
+.img_active a{
+    width: fit-content;
+    margin-left: 11vh;
+    padding: 10px 20px;
+    background-color: #FF715B;
+    text-decoration: none;
+    color: white;   
+}
+.img_active a:hover{
+    background-color: #f02404;
+}
+.apartmen .img_3{
+    width: 23%;
+    display: flex;
+    justify-content: end;
+
+}
+.clients{
+    height: 80vh;
+}
+.clients .ux_ui{
+    width: 100%;
+    height: 10vh;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20vh;
+}
+.client img{
+    width: 40vh;
+    padding-bottom: 7vh;
+    padding-top: 5vh;
+}
+.clients .apartmen{
+    font-size: 3vh;
+    width: 100%;
+    height:50vh;
+    color: #A79997;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.clients .client{
+    width: 70vh;
+    height:50vh;
+    background-color: white;
+    box-shadow: 0px 20px 30px rgba(227, 202, 202, 0.3);
+}
+.clients .photo img{
+    width: 100%;
+    padding: 0 10vh;
+    padding-top: 20vh;
+    padding-bottom: 50vh;
+}
+.footer .left .photo{
+    width: 3vh;
+}
+.footer{
+    padding-top: 85vh;
+}
+.footer .apartmen{
+    display: flex;
+    height: 40vh;
+}
+.footer .left{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #A79997;
+}
+.footer .left .logo{
+    width: 30vh;
+}
+.footer .centrs{
+    display: flex;
+    height: 40vh;
+}
+.centrs .centr_1{
+    width: 30vh;
+}
+.centrs .centr_2{
+    width: 30vh;
+}
+.centrs .centr_1,.centr_2{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 0 2vh;
+}
+.centrs a{
+    padding-top: 3vh;
+    text-decoration: none;
+    color: #A79997;
+}
+.centrs a:hover{
+    color: #FF715B;
+}
+.footer .right{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer .right input{
+    width: 35vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    padding: 12px ;
+    background-color: #F8F8F8;
+    border: 1px solid #F5EBE9;
+
+}
+.footer .right a{
+    background-color: #FF715B;
+    width:fit-content;
+    color: white;
+    padding: 2vh 4vh;
+}
+.footer .right a:hover{
+    background-color:#f02404;
+}
+body > p{
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body > p span{
+    color: #FF715B;
+}
+body > hr{
+    color: #F5EBE9;
+    position: relative;
+    left: 10vh;
+}
+.burger{
+    display: none;
+}
+@media (max-width:576px) {
+    .burger{
+        display: inline-block;
+    }
+    .centr {
+        display: none;
+    }
+    .start .right{
+        display: none;
+    }
+    .left {
+        width: 40%;
+    }
+    header {
+        width:90vh;
+        justify-content:start;
+    }
+    .start .fon img {
+        width: 40vh;
+        padding: 0 0;
+        padding-left:7vh;
+    }
+    .border {
+        left: 10vh;
+        font-size: 10px;
+        bottom: 8vh;
+    }
+    .border .text {
+        display: block; 
+        justify-content:start;
+    }
+    .start .fon h1, button {
+        left: 6vh;
+        font-size: 2vh;
+        font-size: 12px;
+    }
+    .start .fon h1 {
+        padding-bottom: 3vh;
+    }
+    .start .fon h1, button {
+        position: relative;
+        bottom: 15vh;
+        left: 8vh;
+    }
+    .start .fon button {
+        padding: 5px 5px;
+    }
+    .border .child_tap {
+        margin-top: 4vh;
+        margin-left: 8vh;
+    }
+    .items {
+        height: 70vh;
+        display: flex;
+        padding: 0;
+        flex-flow: column wrap;
+    }
+    .start .fon {
+        height: 50vh;
+    }
+    .items .item_1, .item_2, .item_3, .item_4 {
+        font-size: 1.5vh;
+        padding: 0.8vh;
+    }
+    .icons{
+        height: 73vh;
+    }
+    .container {
+        display: flex;
+        height: 5vh;
+        flex-direction: column;
+    }
+    .container a{
+        margin-left: 11vh;
+    }
+    .container .tex {
+        padding-bottom: 0;
+        width: fit-content;
+        padding-left: 5vh;
+    }
+    .container .photo {
+        padding-top: 5vh;
+        padding-left: 23.5vh;
+        flex-direction: column;
+        line-height: 7vh;
+    }
+    .city .photo_4{
+        display: none;
+    }
+    .mayk {
+        height: 200vh;
+        flex-direction: column;
+    }
+    .mayk .left {
+        padding-top: 89vh;
+        padding-left: 43vh;
+    }
+    .mayk .left img {
+        width: 40vh;
+    }
+    .mayk .right h1 {
+        font-size: 3vh;
+    }
+    .mayk .right {
+        padding-left: 0vh; 
+        width: 81%;
+    }
+    .mayk .right img {
+        width: 40vh;
+    }
+    .mayk .right {
+        padding-left: 5vh;
+        flex-direction: column;
+    }
+    .trio .apartmen{
+       display: none;
+    }
+    .clients {
+        height: 50vh;
+    }
+    .clients .client {
+        width: 45vh;
+    }
+    .clients .photo img {
+        margin: 0 6px;
+        width: 88vh;
+        padding: 10vh 0vh;
+        float: right;
+    }
+    .footer .apartmen {
+        display: flex;
+        height: 107vh;
+        flex-direction: column;
+    }
+    .footer .left {
+        width: 97%;
+        height: 35vh;
+    }
+    .footer .centrs {
+        padding-left: 4vh;
+        height: 37vh;
+    }
+    .footer .right {
+        width: 50%;
+        align-items: center;
+        padding-left: 23vh;
+    }
+    .footer {
+        padding-top: 69vh;
+    }
+    body > hr {
+        left: 2vh;
+    }
+    body > p {
+        font-size: 1.5vh;
+    }
+    
+    
+}
+
+
+
+
